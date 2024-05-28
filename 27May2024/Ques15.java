@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Ques15 {
     public static void main(String[] args) {
         Scanner obj=new Scanner(System.in);
-        System.out.println("The string to be reversed:");
+        System.out.println("The string :");
         String s=obj.nextLine();
         int[] arr=new int[26];
         for(int i=0;i<26;i++)
