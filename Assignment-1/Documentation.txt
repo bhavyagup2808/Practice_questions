@@ -1,0 +1,22 @@
+Assignment Title: Object-Oriented Programming Concepts Assessment
+Objective: The objective of this assignment is to evaluate the understanding of Object-Oriented Programming (OOP) concepts among interns. Through this assignment, interns will demonstrate their proficiency in applying key OOP principles such as encapsulation, inheritance, polymorphism, and abstraction.
+
+Instructions:
+Problem Statement:
+You are tasked with implementing a simple banking system that demonstrates the core OOP concepts. The system should have the following functionalities: Create a BankAccount class with the following attributes:
+account_number (unique identifier for each account),balance (current balance),account_holder_name (name of the account holder)
+Implement methods for:Depositing funds into the account.Withdrawing funds from the account (ensure balance does not go negative).Displaying the current balance.
+Create two subclasses: SavingsAccount and CurrentAccount, inheriting from BankAccount.
+SavingsAccount should have an additional attribute interest_rate and method add_interest() which calculates and adds interest to the account balance.
+CurrentAccount should have an additional attribute overdraft_limit and should allow withdrawal beyond the balance up to the overdraft limit.
+
+Code Implementation:
+Write Java code implementing the BankAccount, SavingsAccount, and CurrentAccount classes as per the given specifications.
+     3.Documentation:
+Provide a brief explanation of each OOP concept used in your implementation (encapsulation, inheritance, polymorphism, and abstraction) and how they are applied in your code.
+
+----------------------------------------*******************************--------------------------------------
+
+Implementation
+
+The Java program written there is an abstract class BankAccount and two concrete classes, SavingAccount and CurrentAccount, that inherit from BankAccount. The BankAccount class manages general properties like account number, account holder's name, and balance, and provides methods to deposit, withdraw, and display the balance. It also requires an implementation of an abstract method addInterest() in subclasses. SavingAccount implements addInterest() to add yearly interest based on a fixed rate. CurrentAccount overrides the withdraw method to consider an overdraft limit and states that it does not accrue interest. This setup models basic behaviors of different types of bank accounts.
