@@ -13,8 +13,6 @@ void solve(vector<int>& arr, int target, int n, vector<int>& temp) {
     temp.push_back(arr[n]);
     solve(arr, target - arr[n], n - 1, temp);
     temp.pop_back(); 
-
-    // Exclude current element
     solve(arr, target, n - 1, temp);
 }
 
