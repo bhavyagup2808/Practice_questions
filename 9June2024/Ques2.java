@@ -1,5 +1,3 @@
-package 9June2024;
-
 public class Ques2 {
     //Search in the array whose col and rows are sorted
     public static void main(String[] args) {
