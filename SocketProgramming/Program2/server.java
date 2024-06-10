@@ -1,7 +1,16 @@
-import java.net.ServerSocket;
+import java.net.*;
 
 class server{
     public static void main(String[] args) {
-        ServerSocket socket=new ServerSocket();
+        try{
+            ServerSocket ss =new ServerSocket(8888);
+            Socket soc=ss.accept();
+            System.out.println("The connection is established");
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+        
     }
 }
