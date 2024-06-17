@@ -24,3 +24,4 @@ let numbers1 = Array.of(1, 2, 3, 4);
 // arr.slice(startIdx,endIdx)
 // arr.splice(startIdx, delcount ,newElement) =>change the array 
 console.log(arr1); 
+// .map .filter .reduce spread operator rest parameter .join
